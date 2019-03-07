@@ -80,7 +80,7 @@ git push origin master #推送远程仓库
 ==================================tags操作==========================
 
 #新建tag
-git tag tag_name 
+git tag tag_name (一般在最新的commit上打tag，如果指定某个commit_id，git tag tag_name commit_id)
 
 #查询tag
 git tag 
