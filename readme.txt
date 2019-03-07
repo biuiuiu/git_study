@@ -30,6 +30,7 @@ eg：git remote add origin https://github.com/biuiuiu/git_study.git
 git remote remove 远程仓库名 删除跟此远程的关联
 
 git push -u 远程仓库名 本地仓库名 ：（分支） -u是讲远程仓库与本地设置默认关联，以后可以不用指定远程仓库
+分支名不写的话，git会关联查找与当前分支名字相同的分支
 eg: git push -u origin master  
 
 
