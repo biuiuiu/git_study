@@ -78,6 +78,7 @@ git push origin master #推送远程仓库
 
 
 ==================================tags操作==========================
+稳定的版本可以打tag做记录，在GitHub上可以直接下载这个版本的代码
 
 #新建tag
 git tag tag_name (一般在最新的commit上打tag，如果指定某个commit_id，git tag tag_name commit_id)
